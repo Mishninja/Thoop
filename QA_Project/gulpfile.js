@@ -3,6 +3,7 @@
 var gulp = require('gulp');
 var sass = require('gulp-sass')(require('sass'));
 
+
 gulp.task('sass', function() {
 
     return gulp.src('sass/**/*.scss')
@@ -13,12 +14,11 @@ gulp.task('sass', function() {
 
 // gulp.task('clean', () => {
 //     return del([
-//         'css/main.css',
+//         'css/custom.css',
 //     ]);
 // });
 
 // gulp.task('default', gulp.series(['clean', 'styles']));
-
 
 gulp.task('watch', () =>  {
     gulp.watch('sass/*.scss', gulp.series('sass'));

@@ -27,6 +27,7 @@ $p-desk: 2.5rem;
 body {
     margin: 0;
     padding: 0;
+    grid-template-columns: repeat(6, 1fr);
 }
 
 footer {
@@ -187,25 +188,29 @@ header {
 
 /*
 |------------------------------------------
-|  Contact
+|  Search/Cart icons
 |------------------------------------------
 */
-.cart-btn {
-    display: flex;
-    list-style-type: none;
-    margin-right: 5px;
-    height: 50px;
-    width: 50px;
-    position: absolute;
-    right: 0%;
-    .cart {
-        width: 30px;
+
+.icon-container{
+    
+    background-color: $white;
+    border-radius: 5rem;
+    padding: 1.5rem 2rem;
+    .cart-btn {
+        display: flex;
+        list-style-type: none;
+        margin-right: 5px;
+        height: 50px;
+        width: 50px;
+        position: absolute;
+        right: 0%;
+        .cart {
+            width: 30px;
+        }
     }
 }
 
-main {
-    color: black;
-}
 
 @media (min-width: 768px) {
     body {
