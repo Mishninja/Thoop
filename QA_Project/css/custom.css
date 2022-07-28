@@ -3,6 +3,10 @@
 |  Global Styles
 |------------------------------------------
 */
+html {
+  overflow-x: hidden;
+}
+
 body {
   margin: 0;
 }
@@ -184,4 +188,21 @@ header .img {
 
 .cart-btn .cart {
   width: 30px;
+}
+
+/*
+|------------------------------------------
+|  Banner carousel
+|------------------------------------------
+*/
+.carousel-indicators {
+  left: 80%;
+}
+
+.controls {
+  display: none;
+}
+
+.container {
+  padding: 0;
 }
