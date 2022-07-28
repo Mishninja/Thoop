@@ -1,8 +1,7 @@
 {
   "devDependencies": {  
     "gulp-concat": "^2.6.1",
-    "gulp-sass": "^5.1.0",
-    "node-sass": "^7.0.1"
+    "gulp-sass": "^5.1.0"
   },
   "scripts": {
     "scss": "gulp sass",
