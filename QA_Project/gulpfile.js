@@ -19,14 +19,10 @@ gulp.task('sass', function() {
 
 // gulp.task('default', gulp.series(['clean', 'styles']));
 
-const{watch} = require('gulp');
-
-const watcher = watch(['/sass/**/*.scss']);
 
 gulp.task('watch', () =>  {
-    gulp.watch('sass/**/*.scss', ['sass']);
+    gulp.watch('sass/*.scss', gulp.series('sass'));
 });
 
-watcher.on('change', watch);
 
 

@@ -203,3 +203,13 @@ header {
     }
 }
 
+main {
+    color: black;
+}
+
+@media (min-width: 768px) {
+    body {
+        grid-template-columns: repeat(6, 1fr);
+    }
+}
+

@@ -1,14 +1,15 @@
 {
-  "devDependencies": {
-    "gulp": "^4.0.2",
+  "devDependencies": {  
     "gulp-concat": "^2.6.1",
     "gulp-sass": "^5.1.0",
     "node-sass": "^7.0.1"
   },
   "scripts": {
-    "scss": "gulp sass"
+    "scss": "gulp sass",
+    "start": "gulp watch"
   },
   "dependencies": {
-    "sass": "^1.54.0"
+    "sass": "^1.54.0",
+    "gulp": "^4.0.2"
   }
 }
